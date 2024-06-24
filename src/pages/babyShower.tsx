@@ -41,16 +41,9 @@ margin: 0;
 `;
 
 const BabyShower = () => {
-    const [tempPassword, setPassword] = useState('');
-    const password = sessionStorage.getItem("password");
-    const checkPassword = () => {
-        sessionStorage.setItem("password", tempPassword);
-        location.reload();
-    }
     
     return(
     <>
-    { password === 'popcorn' ? (
         <div style={{display: 'grid'}}>
             <GlobalStyle/>
             <Container>
@@ -68,12 +61,6 @@ const BabyShower = () => {
                 </Paragraph>
             </Container>
         </div>
-    ) : (
-        <div>
-            <input type='text' placeholder="Please Enter Password" onChange={(e) => setPassword(e.target.value)}></input>
-            <button onClick={checkPassword}>Enter</button>
-        </div>
-    ) }
     </>
   )}
   
