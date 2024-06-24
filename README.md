@@ -1,1 +1,0 @@
-Copyright KSAW Creations 2023

@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkportfolio=self.webpackChunkportfolio||[]).push([[691],{3222:function(o,e,t){t.r(e),t.d(e,{default:function(){return r}});t(7294),t.p;t(2788).default.img.withConfig({displayName:"about-me__Image",componentId:"sc-1qymozj-0"})(["border-radius:50%;border:1px dotted pink;"]);var r=()=>{}}}]);
+//# sourceMappingURL=component---src-pages-index-tsx-bbeb7d26feeeefd9124e.js.map
